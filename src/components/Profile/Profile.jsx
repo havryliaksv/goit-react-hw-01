@@ -20,16 +20,16 @@ export default function Profile({
       <ul className={css.listStat}>
         <li className={css.listStatItem}>
           <span>Followers</span>
-          <span>{followers}</span>
+          <span className={css.listStatItemValue}>{followers}</span>
         </li>
         <li className={css.listStatItem}>
           <span>Views</span>
-          <span>{views}</span>
+          <span className={css.listStatItemValue}>{views}</span>
         </li>
-        <l className={css.listStatItem}>
+        <li className={css.listStatItem}>
           <span>Likes</span>
-          <span>{likes}</span>
-        </l>
+          <span className={css.listStatItemValue}>{likes}</span>
+        </li>
       </ul>
     </div>
   );

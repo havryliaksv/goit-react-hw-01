@@ -7,6 +7,8 @@
   background-color: #f3efef;
 }
 .profile {
+  display: flex;
+  flex-direction: column;
   color: #000000;
   text-align: center;
 }

@@ -14,6 +14,7 @@
 .tableBodyRow {
   margin: 0;
   border: 1px solid black;
+  color: black;
 }
 .tableBodyRowType {
   text-align: right;
